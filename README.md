@@ -2,6 +2,8 @@
 
 # <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35"> ABDUL AZEEM
 
+<img src="./assets/animated-header.svg" alt="Animated Header" width="100%"/>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F700&center=true&vCenter=true&random=false&width=800&height=100&lines=Full-Stack+Developer+%F0%9F%9A%80;Co-Founder+%40+BlancosHQ+%F0%9F%92%BC;MERN+Stack+Enthusiast+%F0%9F%92%BB;Building+What+Others+Imagine+%E2%9C%A8)](https://git.io/typing-svg)
 
 <p align="center">

@@ -1,0 +1,187 @@
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes slide {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-50px); }
+      }
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes blink {
+        0%, 90%, 100% { opacity: 1; }
+        95% { opacity: 0; }
+      }
+      .cloud { animation: float 6s ease-in-out infinite; }
+      .cloud2 { animation: float 8s ease-in-out infinite; }
+      .cloud3 { animation: float 7s ease-in-out infinite; }
+      .star { animation: twinkle 2s ease-in-out infinite; }
+      .star2 { animation: twinkle 3s ease-in-out infinite; }
+      .star3 { animation: twinkle 2.5s ease-in-out infinite; }
+      .character { animation: bounce 1s ease-in-out infinite; }
+      .letter { animation: float 4s ease-in-out infinite; }
+      .robot-eyes { animation: blink 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="300" fill="#0d1117"/>
+  
+  <!-- Stars -->
+  <g class="star">
+    <polygon points="100,50 105,60 115,60 107,67 110,77 100,70 90,77 93,67 85,60 95,60" fill="#ffffff"/>
+  </g>
+  <g class="star2">
+    <polygon points="300,80 305,90 315,90 307,97 310,107 300,100 290,107 293,97 285,90 295,90" fill="#ffffff"/>
+  </g>
+  <g class="star3">
+    <polygon points="500,40 505,50 515,50 507,57 510,67 500,60 490,67 493,57 485,50 495,50" fill="#ffffff"/>
+  </g>
+  <g class="star">
+    <polygon points="700,70 705,80 715,80 707,87 710,97 700,90 690,97 693,87 685,80 695,80" fill="#ffffff"/>
+  </g>
+  <g class="star2">
+    <polygon points="850,45 855,55 865,55 857,62 860,72 850,65 840,72 843,62 835,55 845,55" fill="#ffffff"/>
+  </g>
+  <g class="star3">
+    <polygon points="920,90 925,100 935,100 927,107 930,117 920,110 910,117 913,107 905,100 915,100" fill="#ffffff"/>
+  </g>
+  
+  <!-- Clouds (Pixel Art Style) -->
+  <g class="cloud">
+    <rect x="150" y="100" width="15" height="15" fill="#4a5568"/>
+    <rect x="165" y="100" width="15" height="15" fill="#4a5568"/>
+    <rect x="180" y="100" width="15" height="15" fill="#4a5568"/>
+    <rect x="135" y="115" width="15" height="15" fill="#4a5568"/>
+    <rect x="150" y="115" width="15" height="15" fill="#4a5568"/>
+    <rect x="165" y="115" width="15" height="15" fill="#4a5568"/>
+    <rect x="180" y="115" width="15" height="15" fill="#4a5568"/>
+    <rect x="195" y="115" width="15" height="15" fill="#4a5568"/>
+  </g>
+  
+  <g class="cloud2">
+    <rect x="400" y="120" width="15" height="15" fill="#4a5568"/>
+    <rect x="415" y="120" width="15" height="15" fill="#4a5568"/>
+    <rect x="430" y="120" width="15" height="15" fill="#4a5568"/>
+    <rect x="385" y="135" width="15" height="15" fill="#4a5568"/>
+    <rect x="400" y="135" width="15" height="15" fill="#4a5568"/>
+    <rect x="415" y="135" width="15" height="15" fill="#4a5568"/>
+    <rect x="430" y="135" width="15" height="15" fill="#4a5568"/>
+    <rect x="445" y="135" width="15" height="15" fill="#4a5568"/>
+  </g>
+  
+  <g class="cloud3">
+    <rect x="650" y="90" width="15" height="15" fill="#4a5568"/>
+    <rect x="665" y="90" width="15" height="15" fill="#4a5568"/>
+    <rect x="680" y="90" width="15" height="15" fill="#4a5568"/>
+    <rect x="635" y="105" width="15" height="15" fill="#4a5568"/>
+    <rect x="650" y="105" width="15" height="15" fill="#4a5568"/>
+    <rect x="665" y="105" width="15" height="15" fill="#4a5568"/>
+    <rect x="680" y="105" width="15" height="15" fill="#4a5568"/>
+    <rect x="695" y="105" width="15" height="15" fill="#4a5568"/>
+  </g>
+  
+  <!-- Large Pixel Letter "C" (Claude style) -->
+  <g class="letter" transform="translate(750, 150)">
+    <rect x="15" y="0" width="15" height="15" fill="#ffffff"/>
+    <rect x="30" y="0" width="15" height="15" fill="#ffffff"/>
+    <rect x="45" y="0" width="15" height="15" fill="#ffffff"/>
+    <rect x="60" y="0" width="15" height="15" fill="#ffffff"/>
+    <rect x="0" y="15" width="15" height="15" fill="#ffffff"/>
+    <rect x="0" y="30" width="15" height="15" fill="#ffffff"/>
+    <rect x="0" y="45" width="15" height="15" fill="#ffffff"/>
+    <rect x="0" y="60" width="15" height="15" fill="#ffffff"/>
+    <rect x="0" y="75" width="15" height="15" fill="#ffffff"/>
+    <rect x="15" y="90" width="15" height="15" fill="#ffffff"/>
+    <rect x="30" y="90" width="15" height="15" fill="#ffffff"/>
+    <rect x="45" y="90" width="15" height="15" fill="#ffffff"/>
+    <rect x="60" y="90" width="15" height="15" fill="#ffffff"/>
+  </g>
+  
+  <!-- Pixel Character (Developer) -->
+  <g class="character" transform="translate(50, 200)">
+    <!-- Head -->
+    <rect x="15" y="0" width="15" height="15" fill="#f4a460"/>
+    <rect x="30" y="0" width="15" height="15" fill="#f4a460"/>
+    <rect x="45" y="0" width="15" height="15" fill="#f4a460"/>
+    <!-- Eyes -->
+    <rect x="20" y="5" width="5" height="5" fill="#000000"/>
+    <rect x="40" y="5" width="5" height="5" fill="#000000"/>
+    <!-- Body -->
+    <rect x="15" y="15" width="15" height="15" fill="#00f700"/>
+    <rect x="30" y="15" width="15" height="15" fill="#00f700"/>
+    <rect x="45" y="15" width="15" height="15" fill="#00f700"/>
+    <rect x="15" y="30" width="15" height="15" fill="#00f700"/>
+    <rect x="30" y="30" width="15" height="15" fill="#00f700"/>
+    <rect x="45" y="30" width="15" height="15" fill="#00f700"/>
+    <!-- Arms -->
+    <rect x="0" y="20" width="15" height="15" fill="#f4a460"/>
+    <rect x="60" y="20" width="15" height="15" fill="#f4a460"/>
+    <!-- Legs -->
+    <rect x="20" y="45" width="15" height="15" fill="#2c5282"/>
+    <rect x="40" y="45" width="15" height="15" fill="#2c5282"/>
+    <rect x="20" y="60" width="15" height="15" fill="#2c5282"/>
+    <rect x="40" y="60" width="15" height="15" fill="#2c5282"/>
+  </g>
+  
+  <!-- Animated Robot Bot -->
+  <g class="character" transform="translate(850, 210)">
+    <!-- Antenna -->
+    <rect x="20" y="-10" width="4" height="10" fill="#00f700"/>
+    <circle cx="22" cy="-12" r="4" fill="#00f700"/>
+    
+    <!-- Head -->
+    <rect x="10" y="0" width="10" height="10" fill="#4a90e2"/>
+    <rect x="20" y="0" width="10" height="10" fill="#4a90e2"/>
+    <rect x="30" y="0" width="10" height="10" fill="#4a90e2"/>
+    
+    <!-- Eyes (glowing) -->
+    <g class="robot-eyes">
+      <rect x="15" y="3" width="4" height="4" fill="#00f700"/>
+      <rect x="31" y="3" width="4" height="4" fill="#00f700"/>
+    </g>
+    
+    <!-- Body -->
+    <rect x="10" y="10" width="10" height="10" fill="#5a9fd4"/>
+    <rect x="20" y="10" width="10" height="10" fill="#5a9fd4"/>
+    <rect x="30" y="10" width="10" height="10" fill="#5a9fd4"/>
+    <rect x="10" y="20" width="10" height="10" fill="#5a9fd4"/>
+    <rect x="20" y="20" width="10" height="10" fill="#5a9fd4"/>
+    <rect x="30" y="20" width="10" height="10" fill="#5a9fd4"/>
+    
+    <!-- Control Panel -->
+    <rect x="22" y="15" width="6" height="3" fill="#00f700"/>
+    <rect x="22" y="22" width="3" height="3" fill="#ff0000"/>
+    <rect x="27" y="22" width="3" height="3" fill="#00f700"/>
+    
+    <!-- Arms -->
+    <rect x="0" y="12" width="10" height="8" fill="#4a90e2"/>
+    <rect x="40" y="12" width="10" height="8" fill="#4a90e2"/>
+    
+    <!-- Legs/Wheels -->
+    <rect x="12" y="30" width="8" height="10" fill="#2c3e50"/>
+    <rect x="30" y="30" width="8" height="10" fill="#2c3e50"/>
+    <circle cx="16" cy="42" r="5" fill="#1a252f"/>
+    <circle cx="34" cy="42" r="5" fill="#1a252f"/>
+  </g>
+  
+  <!-- Ground Line -->
+  <line x1="0" y1="280" x2="1000" y2="280" stroke="#4a5568" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="200" y="250" font-family="'Courier New', monospace" font-size="32" font-weight="bold" fill="#00f700">
+    ABDUL AZEEM
+  </text>
+  <text x="200" y="280" font-family="'Courier New', monospace" font-size="18" fill="#ffffff">
+    Full-Stack Developer | Building the Future
+  </text>
+</svg>
