@@ -90,8 +90,8 @@
     <rect x="695" y="105" width="15" height="15" fill="#4a5568"/>
   </g>
   
-  <!-- Large Pixel Letter "C" (Claude style) -->
-  <g class="letter" transform="translate(750, 150)">
+  <!-- Large Pixel Letter "C" (Claude style) - Adjusted position -->
+  <g class="letter" transform="translate(100, 150)">
     <rect x="15" y="0" width="15" height="15" fill="#ffffff"/>
     <rect x="30" y="0" width="15" height="15" fill="#ffffff"/>
     <rect x="45" y="0" width="15" height="15" fill="#ffffff"/>
@@ -107,8 +107,8 @@
     <rect x="60" y="90" width="15" height="15" fill="#ffffff"/>
   </g>
   
-  <!-- Pixel Character (Developer) -->
-  <g class="character" transform="translate(50, 200)">
+  <!-- Pixel Character (Developer) - Centered -->
+  <g class="character" transform="translate(420, 200)">
     <!-- Head -->
     <rect x="15" y="0" width="15" height="15" fill="#f4a460"/>
     <rect x="30" y="0" width="15" height="15" fill="#f4a460"/>
@@ -133,8 +133,8 @@
     <rect x="40" y="60" width="15" height="15" fill="#2c5282"/>
   </g>
   
-  <!-- Animated Robot Bot -->
-  <g class="character" transform="translate(850, 210)">
+  <!-- Animated Robot Bot - Balanced position -->
+  <g class="character" transform="translate(800, 210)">
     <!-- Antenna -->
     <rect x="20" y="-10" width="4" height="10" fill="#00f700"/>
     <circle cx="22" cy="-12" r="4" fill="#00f700"/>
@@ -177,11 +177,11 @@
   <!-- Ground Line -->
   <line x1="0" y1="280" x2="1000" y2="280" stroke="#4a5568" stroke-width="2"/>
   
-  <!-- Text -->
-  <text x="200" y="250" font-family="'Courier New', monospace" font-size="32" font-weight="bold" fill="#00f700">
+  <!-- Text - Centered -->
+  <text x="500" y="250" font-family="'Courier New', monospace" font-size="32" font-weight="bold" fill="#00f700" text-anchor="middle">
     ABDUL AZEEM
   </text>
-  <text x="200" y="280" font-family="'Courier New', monospace" font-size="18" fill="#ffffff">
+  <text x="500" y="280" font-family="'Courier New', monospace" font-size="18" fill="#ffffff" text-anchor="middle">
     Full-Stack Developer | Building the Future
   </text>
 </svg>
